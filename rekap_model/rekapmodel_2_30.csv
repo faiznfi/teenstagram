@@ -1,0 +1,402 @@
+2017-06-19 12:33:53,059 : INFO : using autotuned alpha, starting with [0.5, 0.5]
+2017-06-19 12:33:53,059 : INFO : using symmetric eta at 0.00020149103364900262
+2017-06-19 12:33:53,059 : INFO : using serial LDA version on this node
+2017-06-19 12:33:53,325 : INFO : running online LDA training, 2 topics, 30 passes over the supplied corpus of 3119 documents, updating model once every 2000 documents, evaluating perplexity every 3119 documents, iterating 50x with a convergence threshold of 0.001000
+2017-06-19 12:33:53,325 : INFO : PROGRESS: pass 0, at document #2000/3119
+2017-06-19 12:34:01,637 : INFO : optimized alpha [0.65868969673874866, 0.64473494680426802]
+2017-06-19 12:34:01,637 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:01,794 : INFO : topic #0 (0.659): 0.005*"selfie" + 0.004*"surabaya" + 0.004*"kelas" + 0.003*"kangen" + 0.003*"selamat" + 0.003*"kawan" + 0.003*"maaf" + 0.002*"kakak" + 0.002*"sayang" + 0.002*"allah"
+2017-06-19 12:34:01,794 : INFO : topic #1 (0.645): 0.003*"nissan" + 0.003*"satriaandthemonster" + 0.003*"sahabat" + 0.003*"carxdriftracing" + 0.002*"selfie" + 0.002*"jalan" + 0.002*"drummerindonesia" + 0.002*"air" + 0.002*"sukses" + 0.002*"drum"
+2017-06-19 12:34:01,794 : INFO : topic diff=1.008049, rho=1.000000
+2017-06-19 12:34:05,856 : INFO : -10.196 per-word bound, 1173.0 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:05,856 : INFO : PROGRESS: pass 0, at document #3119/3119
+2017-06-19 12:34:09,294 : INFO : optimized alpha [0.79731555813651944, 0.77574185507827309]
+2017-06-19 12:34:09,294 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:09,434 : INFO : topic #0 (0.797): 0.004*"selamat" + 0.004*"hidup" + 0.004*"hati" + 0.004*"photograph" + 0.003*"surabaya" + 0.003*"kawan" + 0.003*"tuhan" + 0.003*"canon" + 0.003*"sukses" + 0.003*"selfie"
+2017-06-19 12:34:09,434 : INFO : topic #1 (0.776): 0.004*"bahagia" + 0.002*"challenge" + 0.002*"jalan" + 0.002*"sukses" + 0.002*"sahabat" + 0.002*"sehat" + 0.002*"miss" + 0.002*"mannequinchallenge" + 0.002*"hbd" + 0.002*"drummerindonesia"
+2017-06-19 12:34:09,434 : INFO : topic diff=1.249800, rho=0.707107
+2017-06-19 12:34:09,434 : INFO : PROGRESS: pass 1, at document #2000/3119
+2017-06-19 12:34:12,247 : INFO : optimized alpha [0.8279846784512932, 0.78292610294771225]
+2017-06-19 12:34:12,247 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:12,497 : INFO : topic #0 (0.828): 0.005*"selfie" + 0.004*"selamat" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"kelas" + 0.003*"hati" + 0.003*"kangen" + 0.003*"sukses" + 0.003*"sayang" + 0.002*"hidup"
+2017-06-19 12:34:12,497 : INFO : topic #1 (0.783): 0.003*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.002*"nissan" + 0.002*"satriaandthemonster" + 0.002*"carxdriftracing" + 0.002*"drummerindonesia" + 0.002*"challenge" + 0.002*"miss" + 0.002*"sukses"
+2017-06-19 12:34:12,497 : INFO : topic diff=0.512927, rho=0.530036
+2017-06-19 12:34:15,637 : INFO : -8.921 per-word bound, 484.8 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:15,637 : INFO : PROGRESS: pass 1, at document #3119/3119
+2017-06-19 12:34:17,512 : INFO : optimized alpha [0.81790444163495057, 0.79262363634426336]
+2017-06-19 12:34:17,512 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:17,653 : INFO : topic #0 (0.818): 0.005*"selamat" + 0.004*"hati" + 0.004*"hidup" + 0.004*"photograph" + 0.004*"surabaya" + 0.004*"kawan" + 0.003*"sukses" + 0.003*"canon" + 0.003*"tuhan" + 0.003*"selfie"
+2017-06-19 12:34:17,653 : INFO : topic #1 (0.793): 0.004*"bahagia" + 0.003*"jalan" + 0.002*"sahabat" + 0.002*"challenge" + 0.002*"miss" + 0.002*"sehat" + 0.002*"drummerindonesia" + 0.002*"mannequinchallenge" + 0.002*"sukses" + 0.002*"hbd"
+2017-06-19 12:34:17,653 : INFO : topic diff=0.485448, rho=0.530036
+2017-06-19 12:34:17,653 : INFO : PROGRESS: pass 2, at document #2000/3119
+2017-06-19 12:34:20,528 : INFO : optimized alpha [0.82287901125196572, 0.772222182843876]
+2017-06-19 12:34:20,528 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:20,715 : INFO : topic #0 (0.823): 0.005*"selfie" + 0.004*"selamat" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"kelas" + 0.003*"sukses" + 0.003*"hati" + 0.003*"sayang" + 0.003*"kangen" + 0.003*"photograph"
+2017-06-19 12:34:20,715 : INFO : topic #1 (0.772): 0.003*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.002*"satriaandthemonster" + 0.002*"nissan" + 0.002*"miss" + 0.002*"carxdriftracing" + 0.002*"drummerindonesia" + 0.002*"challenge" + 0.002*"sehat"
+2017-06-19 12:34:20,715 : INFO : topic diff=0.402028, rho=0.468319
+2017-06-19 12:34:23,215 : INFO : -8.798 per-word bound, 445.2 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:23,215 : INFO : PROGRESS: pass 2, at document #3119/3119
+2017-06-19 12:34:24,403 : INFO : optimized alpha [0.76710582803510252, 0.74830672298100742]
+2017-06-19 12:34:24,403 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:24,528 : INFO : topic #0 (0.767): 0.005*"selamat" + 0.004*"hati" + 0.004*"hidup" + 0.004*"photograph" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"selfie" + 0.003*"canon" + 0.003*"tuhan"
+2017-06-19 12:34:24,528 : INFO : topic #1 (0.748): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"drummerindonesia" + 0.002*"mannequinchallenge" + 0.002*"berjuang" + 0.002*"hbd"
+2017-06-19 12:34:24,528 : INFO : topic diff=0.374235, rho=0.468319
+2017-06-19 12:34:24,528 : INFO : PROGRESS: pass 3, at document #2000/3119
+2017-06-19 12:34:26,356 : INFO : optimized alpha [0.76353319321598412, 0.71926635777182035]
+2017-06-19 12:34:26,372 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:26,520 : INFO : topic #0 (0.764): 0.005*"selfie" + 0.004*"selamat" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"kelas" + 0.003*"sukses" + 0.003*"hati" + 0.003*"sayang" + 0.003*"photograph" + 0.003*"hidup"
+2017-06-19 12:34:26,520 : INFO : topic #1 (0.719): 0.003*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.002*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"carxdriftracing" + 0.002*"challenge" + 0.002*"drummerindonesia" + 0.002*"smile"
+2017-06-19 12:34:26,520 : INFO : topic diff=0.328507, rho=0.424114
+2017-06-19 12:34:28,308 : INFO : -8.740 per-word bound, 427.5 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:28,308 : INFO : PROGRESS: pass 3, at document #3119/3119
+2017-06-19 12:34:29,621 : INFO : optimized alpha [0.69955876614279322, 0.68953803560194726]
+2017-06-19 12:34:29,621 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:29,793 : INFO : topic #0 (0.700): 0.005*"selamat" + 0.004*"hati" + 0.004*"hidup" + 0.004*"photograph" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"selfie" + 0.003*"canon" + 0.003*"sayang"
+2017-06-19 12:34:29,793 : INFO : topic #1 (0.690): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"drummerindonesia" + 0.002*"satriaandthemonster" + 0.002*"mannequinchallenge" + 0.002*"berjuang"
+2017-06-19 12:34:29,793 : INFO : topic diff=0.310371, rho=0.424114
+2017-06-19 12:34:29,793 : INFO : PROGRESS: pass 4, at document #2000/3119
+2017-06-19 12:34:31,714 : INFO : optimized alpha [0.69348965341608115, 0.6588860607010053]
+2017-06-19 12:34:31,714 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:31,886 : INFO : topic #0 (0.693): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"sukses" + 0.003*"hati" + 0.003*"sayang" + 0.003*"photograph" + 0.003*"hidup"
+2017-06-19 12:34:31,886 : INFO : topic #1 (0.659): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"carxdriftracing" + 0.002*"challenge" + 0.002*"smile" + 0.002*"sehat"
+2017-06-19 12:34:31,886 : INFO : topic diff=0.281149, rho=0.390449
+2017-06-19 12:34:34,308 : INFO : -8.704 per-word bound, 417.0 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:34,308 : INFO : PROGRESS: pass 4, at document #3119/3119
+2017-06-19 12:34:35,683 : INFO : optimized alpha [0.63208102884021444, 0.63111998986851137]
+2017-06-19 12:34:35,683 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:35,886 : INFO : topic #0 (0.632): 0.005*"selamat" + 0.004*"hati" + 0.004*"hidup" + 0.004*"surabaya" + 0.004*"photograph" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"selfie" + 0.003*"sayang" + 0.003*"canon"
+2017-06-19 12:34:35,886 : INFO : topic #1 (0.631): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"drummerindonesia" + 0.002*"berjuang" + 0.002*"car"
+2017-06-19 12:34:35,886 : INFO : topic diff=0.268798, rho=0.390449
+2017-06-19 12:34:35,886 : INFO : PROGRESS: pass 5, at document #2000/3119
+2017-06-19 12:34:38,293 : INFO : optimized alpha [0.62558171121757078, 0.60138228820994788]
+2017-06-19 12:34:38,293 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:38,418 : INFO : topic #0 (0.626): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"sukses" + 0.003*"hati" + 0.003*"sayang" + 0.003*"photograph" + 0.003*"hidup"
+2017-06-19 12:34:38,418 : INFO : topic #1 (0.601): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"challenge" + 0.002*"smile" + 0.002*"carxdriftracing" + 0.002*"sehat"
+2017-06-19 12:34:38,418 : INFO : topic diff=0.248953, rho=0.363709
+2017-06-19 12:34:39,886 : INFO : -8.679 per-word bound, 409.7 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:39,886 : INFO : PROGRESS: pass 5, at document #3119/3119
+2017-06-19 12:34:40,777 : INFO : optimized alpha [0.56969165815226563, 0.57697624070645726]
+2017-06-19 12:34:40,777 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:40,964 : INFO : topic #0 (0.570): 0.005*"selamat" + 0.004*"hati" + 0.004*"surabaya" + 0.004*"hidup" + 0.004*"photograph" + 0.004*"sukses" + 0.004*"selfie" + 0.004*"kawan" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:34:40,964 : INFO : topic #1 (0.577): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"smile"
+2017-06-19 12:34:40,964 : INFO : topic diff=0.238792, rho=0.363709
+2017-06-19 12:34:40,964 : INFO : PROGRESS: pass 6, at document #2000/3119
+2017-06-19 12:34:42,824 : INFO : optimized alpha [0.56365860179475791, 0.54909861315632102]
+2017-06-19 12:34:42,824 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:42,964 : INFO : topic #0 (0.564): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"sukses" + 0.003*"hati" + 0.003*"sayang" + 0.003*"photograph" + 0.003*"hidup"
+2017-06-19 12:34:42,964 : INFO : topic #1 (0.549): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"smile" + 0.002*"challenge" + 0.002*"carxdriftracing" + 0.002*"sehat"
+2017-06-19 12:34:42,964 : INFO : topic diff=0.225135, rho=0.341803
+2017-06-19 12:34:44,683 : INFO : -8.659 per-word bound, 404.1 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:44,683 : INFO : PROGRESS: pass 6, at document #3119/3119
+2017-06-19 12:34:45,636 : INFO : optimized alpha [0.51484820650538765, 0.52815763941151495]
+2017-06-19 12:34:45,636 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:45,761 : INFO : topic #0 (0.515): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"hidup" + 0.004*"sukses" + 0.004*"photograph" + 0.004*"selfie" + 0.004*"kawan" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:34:45,761 : INFO : topic #1 (0.528): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"car" + 0.002*"drummerindonesia" + 0.002*"smile"
+2017-06-19 12:34:45,761 : INFO : topic diff=0.217331, rho=0.341803
+2017-06-19 12:34:45,761 : INFO : PROGRESS: pass 7, at document #2000/3119
+2017-06-19 12:34:47,527 : INFO : optimized alpha [0.50938894322201311, 0.50232123371302762]
+2017-06-19 12:34:47,527 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:47,667 : INFO : topic #0 (0.509): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"photograph" + 0.003*"hidup"
+2017-06-19 12:34:47,683 : INFO : topic #1 (0.502): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"smile" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"carxdriftracing"
+2017-06-19 12:34:47,683 : INFO : topic diff=0.206845, rho=0.323432
+2017-06-19 12:34:49,386 : INFO : -8.643 per-word bound, 399.7 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:49,386 : INFO : PROGRESS: pass 7, at document #3119/3119
+2017-06-19 12:34:50,324 : INFO : optimized alpha [0.4677567196126925, 0.48453884612717735]
+2017-06-19 12:34:50,324 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:50,464 : INFO : topic #0 (0.468): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"hidup" + 0.004*"sukses" + 0.004*"selfie" + 0.004*"photograph" + 0.004*"kawan" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:34:50,464 : INFO : topic #1 (0.485): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"car" + 0.002*"smile" + 0.002*"drummerindonesia"
+2017-06-19 12:34:50,464 : INFO : topic diff=0.200791, rho=0.323432
+2017-06-19 12:34:50,464 : INFO : PROGRESS: pass 8, at document #2000/3119
+2017-06-19 12:34:52,324 : INFO : optimized alpha [0.46295281478945033, 0.4607917160888288]
+2017-06-19 12:34:52,324 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:52,464 : INFO : topic #0 (0.463): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"photograph" + 0.003*"hidup"
+2017-06-19 12:34:52,464 : INFO : topic #1 (0.461): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"smile" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"carxdriftracing"
+2017-06-19 12:34:52,464 : INFO : topic diff=0.192152, rho=0.307736
+2017-06-19 12:34:54,199 : INFO : -8.630 per-word bound, 396.1 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:54,199 : INFO : PROGRESS: pass 8, at document #3119/3119
+2017-06-19 12:34:55,121 : INFO : optimized alpha [0.42746668464290316, 0.4456097395971339]
+2017-06-19 12:34:55,121 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:55,246 : INFO : topic #0 (0.427): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"sukses" + 0.004*"hidup" + 0.004*"selfie" + 0.004*"photograph" + 0.004*"kawan" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:34:55,246 : INFO : topic #1 (0.446): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"car" + 0.002*"smile" + 0.002*"drummerindonesia"
+2017-06-19 12:34:55,246 : INFO : topic diff=0.187329, rho=0.307736
+2017-06-19 12:34:55,246 : INFO : PROGRESS: pass 9, at document #2000/3119
+2017-06-19 12:34:56,964 : INFO : optimized alpha [0.42332228565992452, 0.42407150578703284]
+2017-06-19 12:34:56,964 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:34:57,105 : INFO : topic #0 (0.423): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"photograph" + 0.003*"hidup"
+2017-06-19 12:34:57,105 : INFO : topic #1 (0.424): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"smile" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"carxdriftracing"
+2017-06-19 12:34:57,105 : INFO : topic diff=0.180190, rho=0.294124
+2017-06-19 12:34:58,761 : INFO : -8.618 per-word bound, 393.0 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:34:58,761 : INFO : PROGRESS: pass 9, at document #3119/3119
+2017-06-19 12:34:59,714 : INFO : optimized alpha [0.39286592880130083, 0.41112681258355521]
+2017-06-19 12:34:59,714 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:34:59,839 : INFO : topic #0 (0.393): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"sukses" + 0.004*"selfie" + 0.004*"hidup" + 0.004*"kawan" + 0.004*"photograph" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:34:59,839 : INFO : topic #1 (0.411): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"drummerindonesia"
+2017-06-19 12:34:59,839 : INFO : topic diff=0.176199, rho=0.294124
+2017-06-19 12:34:59,839 : INFO : PROGRESS: pass 10, at document #2000/3119
+2017-06-19 12:35:01,652 : INFO : optimized alpha [0.38931390239163327, 0.39163257767550469]
+2017-06-19 12:35:01,652 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:01,792 : INFO : topic #0 (0.389): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"photograph" + 0.003*"hidup"
+2017-06-19 12:35:01,792 : INFO : topic #1 (0.392): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"smile" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"carxdriftracing"
+2017-06-19 12:35:01,792 : INFO : topic diff=0.170537, rho=0.282172
+2017-06-19 12:35:03,480 : INFO : -8.608 per-word bound, 390.3 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:03,480 : INFO : PROGRESS: pass 10, at document #3119/3119
+2017-06-19 12:35:04,449 : INFO : optimized alpha [0.36287520213145363, 0.38054476239416923]
+2017-06-19 12:35:04,449 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:04,589 : INFO : topic #0 (0.363): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"selfie" + 0.004*"hati" + 0.004*"hidup" + 0.004*"kawan" + 0.004*"photograph" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:35:04,589 : INFO : topic #1 (0.381): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"sederhana"
+2017-06-19 12:35:04,589 : INFO : topic diff=0.166877, rho=0.282172
+2017-06-19 12:35:04,589 : INFO : PROGRESS: pass 11, at document #2000/3119
+2017-06-19 12:35:06,433 : INFO : optimized alpha [0.35981192922080302, 0.36288470168246806]
+2017-06-19 12:35:06,433 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:06,589 : INFO : topic #0 (0.360): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:06,589 : INFO : topic #1 (0.363): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"smile" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"carxdriftracing"
+2017-06-19 12:35:06,589 : INFO : topic diff=0.161912, rho=0.271568
+2017-06-19 12:35:08,230 : INFO : -8.599 per-word bound, 387.9 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:08,230 : INFO : PROGRESS: pass 11, at document #3119/3119
+2017-06-19 12:35:09,152 : INFO : optimized alpha [0.33664477891470018, 0.35345520096632116]
+2017-06-19 12:35:09,152 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:09,277 : INFO : topic #0 (0.337): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"hati" + 0.004*"hidup" + 0.004*"kawan" + 0.004*"photograph" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:35:09,277 : INFO : topic #1 (0.353): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"sederhana"
+2017-06-19 12:35:09,277 : INFO : topic diff=0.158816, rho=0.271568
+2017-06-19 12:35:09,277 : INFO : PROGRESS: pass 12, at document #2000/3119
+2017-06-19 12:35:10,996 : INFO : optimized alpha [0.33392912516293949, 0.33743186687102256]
+2017-06-19 12:35:10,996 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:11,136 : INFO : topic #0 (0.334): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:11,136 : INFO : topic #1 (0.337): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.003*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"smile" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"carxdriftracing"
+2017-06-19 12:35:11,136 : INFO : topic diff=0.154552, rho=0.262076
+2017-06-19 12:35:12,746 : INFO : -8.592 per-word bound, 385.8 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:12,746 : INFO : PROGRESS: pass 12, at document #3119/3119
+2017-06-19 12:35:13,527 : INFO : optimized alpha [0.31351059263881093, 0.32941716819102446]
+2017-06-19 12:35:13,527 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:13,636 : INFO : topic #0 (0.314): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"hati" + 0.004*"hidup" + 0.004*"kawan" + 0.004*"photograph" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:35:13,636 : INFO : topic #1 (0.329): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"sederhana"
+2017-06-19 12:35:13,636 : INFO : topic diff=0.151829, rho=0.262076
+2017-06-19 12:35:13,636 : INFO : PROGRESS: pass 13, at document #2000/3119
+2017-06-19 12:35:15,246 : INFO : optimized alpha [0.31116612248822245, 0.31493786625346271]
+2017-06-19 12:35:15,246 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:15,496 : INFO : topic #0 (0.311): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:15,496 : INFO : topic #1 (0.315): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.002*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"smile" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"carxdriftracing"
+2017-06-19 12:35:15,496 : INFO : topic diff=0.148026, rho=0.253514
+2017-06-19 12:35:17,574 : INFO : -8.585 per-word bound, 383.9 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:17,574 : INFO : PROGRESS: pass 13, at document #3119/3119
+2017-06-19 12:35:18,667 : INFO : optimized alpha [0.29306111472439877, 0.30804725223247975]
+2017-06-19 12:35:18,667 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:18,824 : INFO : topic #0 (0.293): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"hati" + 0.004*"hidup" + 0.004*"kawan" + 0.004*"photograph" + 0.003*"sayang" + 0.003*"kelas"
+2017-06-19 12:35:18,824 : INFO : topic #1 (0.308): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"sederhana"
+2017-06-19 12:35:18,824 : INFO : topic diff=0.145722, rho=0.253514
+2017-06-19 12:35:18,824 : INFO : PROGRESS: pass 14, at document #2000/3119
+2017-06-19 12:35:20,621 : INFO : optimized alpha [0.2910742826147909, 0.29499084277681442]
+2017-06-19 12:35:20,621 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:20,839 : INFO : topic #0 (0.291): 0.005*"selfie" + 0.005*"selamat" + 0.005*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:20,839 : INFO : topic #1 (0.295): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.002*"satriaandthemonster" + 0.002*"miss" + 0.002*"nissan" + 0.002*"challenge" + 0.002*"smile" + 0.002*"sehat" + 0.002*"carxdriftracing"
+2017-06-19 12:35:20,839 : INFO : topic diff=0.142317, rho=0.245740
+2017-06-19 12:35:23,089 : INFO : -8.578 per-word bound, 382.2 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:23,089 : INFO : PROGRESS: pass 14, at document #3119/3119
+2017-06-19 12:35:24,339 : INFO : optimized alpha [0.27495074241754558, 0.28902755089156223]
+2017-06-19 12:35:24,339 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:24,558 : INFO : topic #0 (0.275): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"hati" + 0.004*"hidup" + 0.004*"kawan" + 0.004*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:35:24,558 : INFO : topic #1 (0.289): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"sederhana"
+2017-06-19 12:35:24,558 : INFO : topic diff=0.140300, rho=0.245740
+2017-06-19 12:35:24,558 : INFO : PROGRESS: pass 15, at document #2000/3119
+2017-06-19 12:35:26,855 : INFO : optimized alpha [0.27327121230742923, 0.27724038300488496]
+2017-06-19 12:35:26,855 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:27,042 : INFO : topic #0 (0.273): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:27,042 : INFO : topic #1 (0.277): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.002*"miss" + 0.002*"satriaandthemonster" + 0.002*"nissan" + 0.002*"challenge" + 0.002*"smile" + 0.002*"sehat" + 0.002*"car"
+2017-06-19 12:35:27,042 : INFO : topic diff=0.137252, rho=0.238640
+2017-06-19 12:35:28,761 : INFO : -8.572 per-word bound, 380.6 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:28,761 : INFO : PROGRESS: pass 15, at document #3119/3119
+2017-06-19 12:35:30,074 : INFO : optimized alpha [0.258842661159084, 0.27203476567885837]
+2017-06-19 12:35:30,074 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:30,277 : INFO : topic #0 (0.259): 0.005*"selamat" + 0.004*"surabaya" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"hati" + 0.004*"hidup" + 0.004*"kawan" + 0.004*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:35:30,277 : INFO : topic #1 (0.272): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"drummerindonesia"
+2017-06-19 12:35:30,277 : INFO : topic diff=0.135527, rho=0.238640
+2017-06-19 12:35:30,277 : INFO : PROGRESS: pass 16, at document #2000/3119
+2017-06-19 12:35:32,511 : INFO : optimized alpha [0.25736187352817824, 0.26129519609719382]
+2017-06-19 12:35:32,511 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:32,745 : INFO : topic #0 (0.257): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.003*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:32,745 : INFO : topic #1 (0.261): 0.004*"bahagia" + 0.003*"sahabat" + 0.003*"jalan" + 0.002*"miss" + 0.002*"satriaandthemonster" + 0.002*"nissan" + 0.002*"challenge" + 0.002*"smile" + 0.002*"sehat" + 0.002*"car"
+2017-06-19 12:35:32,761 : INFO : topic diff=0.132777, rho=0.232122
+2017-06-19 12:35:34,995 : INFO : -8.566 per-word bound, 379.1 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:34,995 : INFO : PROGRESS: pass 16, at document #3119/3119
+2017-06-19 12:35:36,105 : INFO : optimized alpha [0.24443226019797895, 0.25679320211498508]
+2017-06-19 12:35:36,105 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:36,277 : INFO : topic #0 (0.244): 0.005*"selamat" + 0.004*"selfie" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.004*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:35:36,277 : INFO : topic #1 (0.257): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"drummerindonesia"
+2017-06-19 12:35:36,277 : INFO : topic diff=0.131064, rho=0.232122
+2017-06-19 12:35:36,277 : INFO : PROGRESS: pass 17, at document #2000/3119
+2017-06-19 12:35:38,261 : INFO : optimized alpha [0.24316278097119498, 0.24700287454116152]
+2017-06-19 12:35:38,261 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:38,480 : INFO : topic #0 (0.243): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"sukses" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:38,480 : INFO : topic #1 (0.247): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"satriaandthemonster" + 0.002*"nissan" + 0.002*"challenge" + 0.002*"smile" + 0.002*"sehat" + 0.002*"car"
+2017-06-19 12:35:38,480 : INFO : topic diff=0.128646, rho=0.226111
+2017-06-19 12:35:40,808 : INFO : -8.561 per-word bound, 377.7 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:40,808 : INFO : PROGRESS: pass 17, at document #3119/3119
+2017-06-19 12:35:41,933 : INFO : optimized alpha [0.23153456810914522, 0.24311606244816231]
+2017-06-19 12:35:41,933 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:42,105 : INFO : topic #0 (0.232): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.004*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:35:42,105 : INFO : topic #1 (0.243): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"satriaandthemonster" + 0.002*"smile" + 0.002*"car" + 0.002*"drummerindonesia"
+2017-06-19 12:35:42,105 : INFO : topic diff=0.127053, rho=0.226111
+2017-06-19 12:35:42,105 : INFO : PROGRESS: pass 18, at document #2000/3119
+2017-06-19 12:35:44,027 : INFO : optimized alpha [0.23048290559161541, 0.23417748510058184]
+2017-06-19 12:35:44,027 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:44,245 : INFO : topic #0 (0.230): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:44,245 : INFO : topic #1 (0.234): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"nissan" + 0.002*"satriaandthemonster" + 0.002*"challenge" + 0.002*"smile" + 0.002*"sehat" + 0.002*"car"
+2017-06-19 12:35:44,245 : INFO : topic diff=0.124915, rho=0.220543
+2017-06-19 12:35:46,433 : INFO : -8.557 per-word bound, 376.5 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:46,433 : INFO : PROGRESS: pass 18, at document #3119/3119
+2017-06-19 12:35:47,511 : INFO : optimized alpha [0.21998030148317593, 0.23083125572009669]
+2017-06-19 12:35:47,511 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:47,714 : INFO : topic #0 (0.220): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.004*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:35:47,714 : INFO : topic #1 (0.231): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"smile" + 0.002*"car" + 0.002*"drummerindonesia" + 0.002*"sederhana"
+2017-06-19 12:35:47,714 : INFO : topic diff=0.123522, rho=0.220543
+2017-06-19 12:35:47,714 : INFO : PROGRESS: pass 19, at document #2000/3119
+2017-06-19 12:35:49,933 : INFO : optimized alpha [0.21910806574922426, 0.22265659731687146]
+2017-06-19 12:35:49,933 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:50,198 : INFO : topic #0 (0.219): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:50,198 : INFO : topic #1 (0.223): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"nissan" + 0.002*"challenge" + 0.002*"smile" + 0.002*"satriaandthemonster" + 0.002*"sehat" + 0.002*"car"
+2017-06-19 12:35:50,198 : INFO : topic diff=0.121524, rho=0.215368
+2017-06-19 12:35:52,402 : INFO : -8.552 per-word bound, 375.3 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:52,402 : INFO : PROGRESS: pass 19, at document #3119/3119
+2017-06-19 12:35:53,449 : INFO : optimized alpha [0.20955778709612594, 0.21971291201982407]
+2017-06-19 12:35:53,449 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:53,621 : INFO : topic #0 (0.210): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.004*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:35:53,621 : INFO : topic #1 (0.220): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"smile" + 0.002*"car" + 0.002*"drummerindonesia" + 0.002*"sederhana"
+2017-06-19 12:35:53,621 : INFO : topic diff=0.120254, rho=0.215368
+2017-06-19 12:35:53,621 : INFO : PROGRESS: pass 20, at document #2000/3119
+2017-06-19 12:35:55,684 : INFO : optimized alpha [0.20874679978892266, 0.21218122429838343]
+2017-06-19 12:35:55,684 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:35:55,887 : INFO : topic #0 (0.209): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:35:55,887 : INFO : topic #1 (0.212): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"smile" + 0.002*"satriaandthemonster" + 0.002*"sehat" + 0.002*"drummerindonesia"
+2017-06-19 12:35:55,887 : INFO : topic diff=0.118436, rho=0.210540
+2017-06-19 12:35:58,012 : INFO : -8.548 per-word bound, 374.2 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:35:58,012 : INFO : PROGRESS: pass 20, at document #3119/3119
+2017-06-19 12:35:59,168 : INFO : optimized alpha [0.20003648356893969, 0.20959497480262038]
+2017-06-19 12:35:59,168 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:35:59,324 : INFO : topic #0 (0.200): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.004*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:35:59,324 : INFO : topic #1 (0.210): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"smile" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"sederhana"
+2017-06-19 12:35:59,340 : INFO : topic diff=0.117164, rho=0.210540
+2017-06-19 12:35:59,340 : INFO : PROGRESS: pass 21, at document #2000/3119
+2017-06-19 12:36:01,434 : INFO : optimized alpha [0.19930461727982593, 0.20259500704774028]
+2017-06-19 12:36:01,434 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:01,652 : INFO : topic #0 (0.199): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:01,652 : INFO : topic #1 (0.203): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"smile" + 0.002*"satriaandthemonster" + 0.002*"drummerindonesia" + 0.002*"car"
+2017-06-19 12:36:01,652 : INFO : topic diff=0.115556, rho=0.206024
+2017-06-19 12:36:03,340 : INFO : -8.544 per-word bound, 373.2 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:03,340 : INFO : PROGRESS: pass 21, at document #3119/3119
+2017-06-19 12:36:04,059 : INFO : optimized alpha [0.19137888513118712, 0.20032804342203317]
+2017-06-19 12:36:04,059 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:04,184 : INFO : topic #0 (0.191): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.004*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:36:04,184 : INFO : topic #1 (0.200): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"smile" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"sederhana"
+2017-06-19 12:36:04,184 : INFO : topic diff=0.114317, rho=0.206024
+2017-06-19 12:36:04,184 : INFO : PROGRESS: pass 22, at document #2000/3119
+2017-06-19 12:36:05,465 : INFO : optimized alpha [0.19073725398276192, 0.19385926570742645]
+2017-06-19 12:36:05,465 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:05,715 : INFO : topic #0 (0.191): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:05,715 : INFO : topic #1 (0.194): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"smile" + 0.002*"satriaandthemonster" + 0.002*"drummerindonesia" + 0.002*"car"
+2017-06-19 12:36:05,715 : INFO : topic diff=0.112887, rho=0.201786
+2017-06-19 12:36:07,746 : INFO : -8.540 per-word bound, 372.2 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:07,746 : INFO : PROGRESS: pass 22, at document #3119/3119
+2017-06-19 12:36:08,652 : INFO : optimized alpha [0.18341197949509586, 0.19184746698627694]
+2017-06-19 12:36:08,652 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:08,809 : INFO : topic #0 (0.183): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.003*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:36:08,809 : INFO : topic #1 (0.192): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"sehat" + 0.002*"smile" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"sederhana"
+2017-06-19 12:36:08,809 : INFO : topic diff=0.111717, rho=0.201786
+2017-06-19 12:36:08,809 : INFO : PROGRESS: pass 23, at document #2000/3119
+2017-06-19 12:36:10,637 : INFO : optimized alpha [0.18289668278064189, 0.18587005167149551]
+2017-06-19 12:36:10,637 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:10,840 : INFO : topic #0 (0.183): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:10,840 : INFO : topic #1 (0.186): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"smile" + 0.002*"satriaandthemonster" + 0.002*"drummerindonesia" + 0.002*"car"
+2017-06-19 12:36:10,840 : INFO : topic diff=0.110265, rho=0.197799
+2017-06-19 12:36:12,211 : INFO : -8.536 per-word bound, 371.3 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:12,211 : INFO : PROGRESS: pass 23, at document #3119/3119
+2017-06-19 12:36:13,008 : INFO : optimized alpha [0.17614157508078163, 0.18408804210586271]
+2017-06-19 12:36:13,008 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:13,180 : INFO : topic #0 (0.176): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.003*"photograph" + 0.003*"kelas" + 0.003*"sayang"
+2017-06-19 12:36:13,180 : INFO : topic #1 (0.184): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"smile" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"sehat" + 0.002*"sederhana"
+2017-06-19 12:36:13,180 : INFO : topic diff=0.109210, rho=0.197799
+2017-06-19 12:36:13,180 : INFO : PROGRESS: pass 24, at document #2000/3119
+2017-06-19 12:36:15,258 : INFO : optimized alpha [0.17573393070885676, 0.17854647697910866]
+2017-06-19 12:36:15,258 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:15,508 : INFO : topic #0 (0.176): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:15,508 : INFO : topic #1 (0.179): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"smile" + 0.002*"satriaandthemonster" + 0.002*"drummerindonesia" + 0.002*"car"
+2017-06-19 12:36:15,508 : INFO : topic diff=0.107845, rho=0.194039
+2017-06-19 12:36:17,414 : INFO : -8.533 per-word bound, 370.5 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:17,414 : INFO : PROGRESS: pass 24, at document #3119/3119
+2017-06-19 12:36:18,289 : INFO : optimized alpha [0.16947838783002903, 0.1769571925296205]
+2017-06-19 12:36:18,289 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:18,399 : INFO : topic #0 (0.169): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.003*"kelas" + 0.003*"photograph" + 0.003*"sayang"
+2017-06-19 12:36:18,399 : INFO : topic #1 (0.177): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"drummerindonesia" + 0.002*"smile" + 0.002*"car" + 0.002*"sederhana" + 0.002*"satriaandthemonster"
+2017-06-19 12:36:18,399 : INFO : topic diff=0.106834, rho=0.194039
+2017-06-19 12:36:18,399 : INFO : PROGRESS: pass 25, at document #2000/3119
+2017-06-19 12:36:19,633 : INFO : optimized alpha [0.16916939491907473, 0.17182466467613838]
+2017-06-19 12:36:19,633 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:19,790 : INFO : topic #0 (0.169): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:19,790 : INFO : topic #1 (0.172): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"smile" + 0.002*"satriaandthemonster" + 0.002*"drummerindonesia" + 0.002*"car"
+2017-06-19 12:36:19,790 : INFO : topic diff=0.105556, rho=0.190487
+2017-06-19 12:36:21,118 : INFO : -8.530 per-word bound, 369.7 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:21,118 : INFO : PROGRESS: pass 25, at document #3119/3119
+2017-06-19 12:36:21,805 : INFO : optimized alpha [0.16337047864430596, 0.17044557542299954]
+2017-06-19 12:36:21,805 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:21,914 : INFO : topic #0 (0.163): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.003*"kelas" + 0.003*"photograph" + 0.003*"sayang"
+2017-06-19 12:36:21,914 : INFO : topic #1 (0.170): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"smile" + 0.002*"sederhana" + 0.002*"satriaandthemonster"
+2017-06-19 12:36:21,914 : INFO : topic diff=0.104598, rho=0.190487
+2017-06-19 12:36:21,914 : INFO : PROGRESS: pass 26, at document #2000/3119
+2017-06-19 12:36:23,149 : INFO : optimized alpha [0.16310892561770893, 0.16561865255326547]
+2017-06-19 12:36:23,149 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:23,289 : INFO : topic #0 (0.163): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:23,289 : INFO : topic #1 (0.166): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"smile" + 0.002*"drummerindonesia" + 0.002*"satriaandthemonster" + 0.002*"car"
+2017-06-19 12:36:23,289 : INFO : topic diff=0.103498, rho=0.187122
+2017-06-19 12:36:24,868 : INFO : -8.528 per-word bound, 369.0 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:24,868 : INFO : PROGRESS: pass 26, at document #3119/3119
+2017-06-19 12:36:25,696 : INFO : optimized alpha [0.15768450663937053, 0.16441161950807376]
+2017-06-19 12:36:25,696 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:25,868 : INFO : topic #0 (0.158): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.003*"kelas" + 0.003*"photograph" + 0.003*"sayang"
+2017-06-19 12:36:25,868 : INFO : topic #1 (0.164): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"sederhana" + 0.002*"smile" + 0.002*"satriaandthemonster"
+2017-06-19 12:36:25,868 : INFO : topic diff=0.102554, rho=0.187122
+2017-06-19 12:36:25,868 : INFO : PROGRESS: pass 27, at document #2000/3119
+2017-06-19 12:36:27,821 : INFO : optimized alpha [0.15749400496779853, 0.1598966458349135]
+2017-06-19 12:36:27,821 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:28,039 : INFO : topic #0 (0.157): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:28,039 : INFO : topic #1 (0.160): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"drummerindonesia" + 0.002*"satriaandthemonster" + 0.002*"car" + 0.002*"carxdriftracing"
+2017-06-19 12:36:28,039 : INFO : topic diff=0.101471, rho=0.183930
+2017-06-19 12:36:29,727 : INFO : -8.525 per-word bound, 368.4 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:29,727 : INFO : PROGRESS: pass 27, at document #3119/3119
+2017-06-19 12:36:30,399 : INFO : optimized alpha [0.15243885231471133, 0.15884842778295966]
+2017-06-19 12:36:30,399 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:30,508 : INFO : topic #0 (0.152): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.003*"kelas" + 0.003*"photograph" + 0.003*"sayang"
+2017-06-19 12:36:30,508 : INFO : topic #1 (0.159): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"sederhana" + 0.002*"smile" + 0.002*"satriaandthemonster"
+2017-06-19 12:36:30,508 : INFO : topic diff=0.100572, rho=0.183930
+2017-06-19 12:36:30,508 : INFO : PROGRESS: pass 28, at document #2000/3119
+2017-06-19 12:36:31,743 : INFO : optimized alpha [0.15231609144251718, 0.15463360839342144]
+2017-06-19 12:36:31,743 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:31,899 : INFO : topic #0 (0.152): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:31,899 : INFO : topic #1 (0.155): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"drummerindonesia" + 0.002*"satriaandthemonster" + 0.002*"car" + 0.002*"carxdriftracing"
+2017-06-19 12:36:31,899 : INFO : topic diff=0.099577, rho=0.180895
+2017-06-19 12:36:33,180 : INFO : -8.523 per-word bound, 367.8 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:33,196 : INFO : PROGRESS: pass 28, at document #3119/3119
+2017-06-19 12:36:33,852 : INFO : optimized alpha [0.14758149117953259, 0.15369217167647692]
+2017-06-19 12:36:33,852 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:33,977 : INFO : topic #0 (0.148): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"hati" + 0.004*"kawan" + 0.004*"hidup" + 0.003*"kelas" + 0.003*"photograph" + 0.003*"sayang"
+2017-06-19 12:36:33,977 : INFO : topic #1 (0.154): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"sederhana" + 0.002*"satriaandthemonster" + 0.002*"smile"
+2017-06-19 12:36:33,977 : INFO : topic diff=0.098743, rho=0.180895
+2017-06-19 12:36:33,977 : INFO : PROGRESS: pass 29, at document #2000/3119
+2017-06-19 12:36:35,805 : INFO : optimized alpha [0.14751575903401803, 0.14974698041894649]
+2017-06-19 12:36:35,805 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-19 12:36:36,024 : INFO : topic #0 (0.148): 0.005*"selfie" + 0.005*"selamat" + 0.004*"surabaya" + 0.004*"sukses" + 0.004*"kawan" + 0.004*"kelas" + 0.004*"hati" + 0.003*"sayang" + 0.003*"hidup" + 0.003*"photograph"
+2017-06-19 12:36:36,024 : INFO : topic #1 (0.150): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"nissan" + 0.002*"drummerindonesia" + 0.002*"satriaandthemonster" + 0.002*"car" + 0.002*"carxdriftracing"
+2017-06-19 12:36:36,024 : INFO : topic diff=0.097814, rho=0.178006
+2017-06-19 12:36:37,930 : INFO : -8.521 per-word bound, 367.3 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-19 12:36:37,930 : INFO : PROGRESS: pass 29, at document #3119/3119
+2017-06-19 12:36:38,789 : INFO : optimized alpha [0.14308004195440552, 0.14892894458269973]
+2017-06-19 12:36:38,789 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-19 12:36:38,930 : INFO : topic #0 (0.143): 0.005*"selamat" + 0.004*"selfie" + 0.004*"sukses" + 0.004*"surabaya" + 0.004*"kawan" + 0.004*"hati" + 0.004*"hidup" + 0.003*"kelas" + 0.003*"photograph" + 0.003*"sayang"
+2017-06-19 12:36:38,930 : INFO : topic #1 (0.149): 0.004*"bahagia" + 0.003*"jalan" + 0.003*"sahabat" + 0.002*"miss" + 0.002*"challenge" + 0.002*"drummerindonesia" + 0.002*"car" + 0.002*"sederhana" + 0.002*"satriaandthemonster" + 0.002*"smile"
+2017-06-19 12:36:38,930 : INFO : topic diff=0.096975, rho=0.178006
+2017-06-19 12:36:38,930 : INFO : saving LdaState object under model/no_stem/model_2_30_nostem.model.state, separately None
+2017-06-19 12:36:38,977 : INFO : saved model/no_stem/model_2_30_nostem.model.state
+2017-06-19 12:36:39,008 : INFO : saving LdaModel object under model/no_stem/model_2_30_nostem.model, separately ['expElogbeta', 'sstats']
+2017-06-19 12:36:39,008 : INFO : not storing attribute id2word
+2017-06-19 12:36:39,008 : INFO : not storing attribute state
+2017-06-19 12:36:39,008 : INFO : storing np array 'expElogbeta' to model/no_stem/model_2_30_nostem.model.expElogbeta.npy
+2017-06-19 12:36:39,039 : INFO : not storing attribute dispatcher
+2017-06-19 12:36:39,055 : INFO : saved model/no_stem/model_2_30_nostem.model

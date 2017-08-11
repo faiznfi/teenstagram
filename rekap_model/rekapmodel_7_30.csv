@@ -1,0 +1,297 @@
+2017-06-21 04:10:17,567 : INFO : using autotuned alpha, starting with [0.14285714285714285, 0.14285714285714285, 0.14285714285714285, 0.14285714285714285, 0.14285714285714285, 0.14285714285714285, 0.14285714285714285]
+2017-06-21 04:10:17,567 : INFO : using symmetric eta at 0.00020149103364900262
+2017-06-21 04:10:17,567 : INFO : using serial LDA version on this node
+2017-06-21 04:10:18,442 : INFO : running online LDA training, 7 topics, 15 passes over the supplied corpus of 3119 documents, updating model once every 2000 documents, evaluating perplexity every 3119 documents, iterating 50x with a convergence threshold of 0.001000
+2017-06-21 04:10:18,442 : INFO : PROGRESS: pass 0, at document #2000/3119
+2017-06-21 04:10:21,411 : INFO : optimized alpha [0.13357301408777689, 0.13195119199286631, 0.13417027889349878, 0.13524605451577126, 0.13384142397413001, 0.13269599676652918, 0.1347998357893013]
+2017-06-21 04:10:21,411 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:21,552 : INFO : topic #1 (0.132): 0.005*"photo" + 0.004*"selfie" + 0.004*"drummerindonesia" + 0.004*"suksess" + 0.004*"sleep" + 0.004*"photograph" + 0.003*"carxdriftracing" + 0.003*"live" + 0.003*"banggai" + 0.003*"team"
+2017-06-21 04:10:21,552 : INFO : topic #5 (0.133): 0.007*"kakak" + 0.007*"drummerindonesia" + 0.005*"surabaya" + 0.004*"selfie" + 0.004*"indonesia" + 0.004*"nakal" + 0.004*"wincentdrumstick" + 0.004*"smp" + 0.003*"nissan" + 0.003*"jalan"
+2017-06-21 04:10:21,552 : INFO : topic #2 (0.134): 0.009*"sahabat" + 0.005*"kelas" + 0.005*"bahagia" + 0.004*"kls" + 0.004*"lomba" + 0.004*"car" + 0.003*"hbd" + 0.003*"juara" + 0.003*"sulit" + 0.003*"calon"
+2017-06-21 04:10:21,552 : INFO : topic #6 (0.135): 0.013*"selfie" + 0.009*"kangen" + 0.007*"drift" + 0.004*"nissan" + 0.004*"air" + 0.004*"trimakasih" + 0.004*"carxdriftracing" + 0.004*"alhamdulillah" + 0.003*"salju" + 0.003*"video"
+2017-06-21 04:10:21,552 : INFO : topic #3 (0.135): 0.008*"kawan" + 0.007*"surabaya" + 0.006*"satriaandthemonster" + 0.005*"video" + 0.005*"hijab" + 0.004*"birthday" + 0.004*"sayang" + 0.004*"stalker" + 0.004*"triller" + 0.003*"stm"
+2017-06-21 04:10:21,552 : INFO : topic diff=5.257168, rho=1.000000
+2017-06-21 04:10:23,595 : INFO : -13.648 per-word bound, 12834.1 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:23,595 : INFO : PROGRESS: pass 0, at document #3119/3119
+2017-06-21 04:10:24,962 : INFO : optimized alpha [0.13054180872566903, 0.1356770580816837, 0.13214513891638299, 0.12751507951223542, 0.12949217423720799, 0.12761412034397027, 0.12723343720679087]
+2017-06-21 04:10:24,962 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:25,024 : INFO : topic #6 (0.127): 0.009*"hati" + 0.007*"selfie" + 0.007*"alhamdulillah" + 0.006*"mom" + 0.005*"kangen" + 0.005*"landscape" + 0.005*"exploresurabaya" + 0.004*"photography" + 0.004*"jaman" + 0.004*"beach"
+2017-06-21 04:10:25,024 : INFO : topic #3 (0.128): 0.010*"kawan" + 0.008*"mannequinchallenge" + 0.008*"challenge" + 0.006*"sayang" + 0.006*"berjuang" + 0.006*"miss" + 0.005*"surabaya" + 0.005*"om" + 0.004*"manis" + 0.004*"accepted"
+2017-06-21 04:10:25,024 : INFO : topic #0 (0.131): 0.010*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"music" + 0.005*"percayalah" + 0.004*"pacar" + 0.004*"purple" + 0.004*"sayang" + 0.004*"mama" + 0.004*"keep"
+2017-06-21 04:10:25,024 : INFO : topic #2 (0.132): 0.012*"bahagia" + 0.009*"hbd" + 0.007*"sahabat" + 0.007*"hidup" + 0.007*"murid" + 0.006*"old" + 0.005*"sakit" + 0.005*"makan" + 0.005*"quotes" + 0.005*"sdn"
+2017-06-21 04:10:25,024 : INFO : topic #1 (0.136): 0.013*"photograph" + 0.010*"canon" + 0.007*"m3" + 0.007*"eos" + 0.006*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"otw" + 0.003*"tua"
+2017-06-21 04:10:25,024 : INFO : topic diff=0.892752, rho=0.707107
+2017-06-21 04:10:25,024 : INFO : PROGRESS: pass 1, at document #2000/3119
+2017-06-21 04:10:26,471 : INFO : optimized alpha [0.12675442909518436, 0.12953496360821123, 0.12865580065960625, 0.12508977008833019, 0.12606337956309804, 0.12430859540349805, 0.12487262616397475]
+2017-06-21 04:10:26,471 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:26,643 : INFO : topic #5 (0.124): 0.011*"drummerindonesia" + 0.009*"kakak" + 0.006*"indonesia" + 0.006*"nakal" + 0.005*"hidup" + 0.005*"tuhan" + 0.004*"alone" + 0.004*"keluarga" + 0.004*"jalan" + 0.004*"drumcover"
+2017-06-21 04:10:26,643 : INFO : topic #6 (0.125): 0.014*"selfie" + 0.009*"kangen" + 0.006*"drift" + 0.006*"alhamdulillah" + 0.005*"hati" + 0.005*"air" + 0.005*"nissan" + 0.004*"carxdriftracing" + 0.004*"photography" + 0.004*"beach"
+2017-06-21 04:10:26,643 : INFO : topic #0 (0.127): 0.010*"sukses" + 0.008*"kelas" + 0.007*"senyum" + 0.005*"rock" + 0.005*"keep" + 0.004*"temen" + 0.004*"selfie" + 0.003*"sayang" + 0.003*"kartini" + 0.003*"hero"
+2017-06-21 04:10:26,643 : INFO : topic #2 (0.129): 0.009*"sahabat" + 0.009*"bahagia" + 0.009*"hbd" + 0.005*"smile" + 0.005*"car" + 0.004*"lomba" + 0.004*"kelas" + 0.004*"old" + 0.004*"candid" + 0.004*"calon"
+2017-06-21 04:10:26,643 : INFO : topic #1 (0.130): 0.010*"photograph" + 0.007*"canon" + 0.005*"m3" + 0.005*"eos" + 0.004*"wanita" + 0.004*"galantiz" + 0.003*"hati" + 0.003*"sidoarjo" + 0.003*"team" + 0.003*"photo"
+2017-06-21 04:10:26,643 : INFO : topic diff=0.263039, rho=0.530036
+2017-06-21 04:10:28,080 : INFO : -9.315 per-word bound, 636.9 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:28,080 : INFO : PROGRESS: pass 1, at document #3119/3119
+2017-06-21 04:10:28,893 : INFO : optimized alpha [0.12441293782538435, 0.13164406140819473, 0.12665211542303056, 0.11992201213214521, 0.12328280205738028, 0.12100848756232166, 0.11963538580369849]
+2017-06-21 04:10:28,908 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:28,955 : INFO : topic #6 (0.120): 0.010*"selfie" + 0.009*"hati" + 0.007*"alhamdulillah" + 0.006*"kangen" + 0.006*"mom" + 0.005*"landscape" + 0.005*"exploresurabaya" + 0.004*"photography" + 0.004*"beach" + 0.004*"air"
+2017-06-21 04:10:28,955 : INFO : topic #3 (0.120): 0.010*"kawan" + 0.008*"challenge" + 0.008*"mannequinchallenge" + 0.007*"sayang" + 0.007*"miss" + 0.007*"om" + 0.006*"berjuang" + 0.005*"surabaya" + 0.004*"manis" + 0.004*"satriaandthemonster"
+2017-06-21 04:10:28,955 : INFO : topic #0 (0.124): 0.011*"sukses" + 0.009*"senyum" + 0.005*"music" + 0.005*"kelas" + 0.004*"percayalah" + 0.004*"keep" + 0.004*"mama" + 0.004*"pacar" + 0.004*"purple" + 0.004*"temen"
+2017-06-21 04:10:28,955 : INFO : topic #2 (0.127): 0.012*"bahagia" + 0.010*"hbd" + 0.008*"sahabat" + 0.007*"hidup" + 0.007*"murid" + 0.006*"old" + 0.005*"makan" + 0.005*"sakit" + 0.005*"quotes" + 0.005*"sdn"
+2017-06-21 04:10:28,955 : INFO : topic #1 (0.132): 0.013*"photograph" + 0.010*"canon" + 0.008*"m3" + 0.008*"eos" + 0.006*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"smafav" + 0.003*"fotonya"
+2017-06-21 04:10:28,955 : INFO : topic diff=0.247590, rho=0.530036
+2017-06-21 04:10:28,955 : INFO : PROGRESS: pass 2, at document #2000/3119
+2017-06-21 04:10:30,799 : INFO : optimized alpha [0.12144448704736673, 0.12630532947615347, 0.12393512939337289, 0.11816742012900558, 0.12058631768125909, 0.11851062365465349, 0.11793276713665064]
+2017-06-21 04:10:30,799 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:31,080 : INFO : topic #6 (0.118): 0.015*"selfie" + 0.009*"kangen" + 0.006*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"carxdriftracing" + 0.004*"photography" + 0.004*"beach"
+2017-06-21 04:10:31,080 : INFO : topic #3 (0.118): 0.010*"kawan" + 0.008*"sayang" + 0.006*"challenge" + 0.006*"satriaandthemonster" + 0.006*"surabaya" + 0.006*"miss" + 0.005*"hijab" + 0.005*"video" + 0.005*"om" + 0.004*"mannequinchallenge"
+2017-06-21 04:10:31,080 : INFO : topic #0 (0.121): 0.011*"sukses" + 0.008*"senyum" + 0.008*"kelas" + 0.005*"rock" + 0.005*"keep" + 0.004*"temen" + 0.003*"sayang" + 0.003*"selfie" + 0.003*"music" + 0.003*"percayalah"
+2017-06-21 04:10:31,080 : INFO : topic #2 (0.124): 0.010*"sahabat" + 0.010*"hbd" + 0.009*"bahagia" + 0.006*"smile" + 0.005*"old" + 0.005*"lomba" + 0.005*"car" + 0.004*"candid" + 0.004*"kelas" + 0.004*"hidup"
+2017-06-21 04:10:31,080 : INFO : topic #1 (0.126): 0.010*"photograph" + 0.008*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.004*"hati" + 0.003*"team" + 0.003*"kebersamaan"
+2017-06-21 04:10:31,080 : INFO : topic diff=0.218908, rho=0.468319
+2017-06-21 04:10:32,643 : INFO : -9.117 per-word bound, 555.4 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:32,643 : INFO : PROGRESS: pass 2, at document #3119/3119
+2017-06-21 04:10:33,393 : INFO : optimized alpha [0.119555025066306, 0.12800263128127667, 0.12213129891300434, 0.11407548893026923, 0.1183009456555274, 0.11586149677237352, 0.11387664711717048]
+2017-06-21 04:10:33,393 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:33,455 : INFO : topic #6 (0.114): 0.011*"selfie" + 0.010*"hati" + 0.007*"alhamdulillah" + 0.007*"kangen" + 0.006*"mom" + 0.005*"landscape" + 0.005*"exploresurabaya" + 0.004*"mata" + 0.004*"air" + 0.004*"photography"
+2017-06-21 04:10:33,455 : INFO : topic #3 (0.114): 0.010*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"mannequinchallenge" + 0.007*"om" + 0.007*"miss" + 0.006*"berjuang" + 0.005*"surabaya" + 0.005*"satriaandthemonster" + 0.004*"manis"
+2017-06-21 04:10:33,455 : INFO : topic #0 (0.120): 0.011*"sukses" + 0.009*"senyum" + 0.005*"music" + 0.005*"kelas" + 0.004*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"pacar" + 0.004*"purple" + 0.004*"temen"
+2017-06-21 04:10:33,455 : INFO : topic #2 (0.122): 0.012*"bahagia" + 0.010*"hbd" + 0.009*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"old" + 0.005*"makan" + 0.005*"smile" + 0.005*"imajiindonesia" + 0.005*"plazakamera"
+2017-06-21 04:10:33,455 : INFO : topic #1 (0.128): 0.013*"photograph" + 0.010*"canon" + 0.008*"m3" + 0.008*"eos" + 0.006*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:10:33,455 : INFO : topic diff=0.201469, rho=0.468319
+2017-06-21 04:10:33,455 : INFO : PROGRESS: pass 3, at document #2000/3119
+2017-06-21 04:10:34,783 : INFO : optimized alpha [0.11699983517256843, 0.12327663525300896, 0.11985693947367763, 0.11275309825303031, 0.11602814968260362, 0.11380605981489854, 0.11260276553584683]
+2017-06-21 04:10:34,783 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:34,971 : INFO : topic #6 (0.113): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"carxdriftracing" + 0.004*"photography" + 0.004*"beach"
+2017-06-21 04:10:34,971 : INFO : topic #3 (0.113): 0.010*"kawan" + 0.008*"sayang" + 0.007*"satriaandthemonster" + 0.007*"challenge" + 0.006*"miss" + 0.006*"surabaya" + 0.005*"om" + 0.005*"hijab" + 0.005*"video" + 0.005*"mannequinchallenge"
+2017-06-21 04:10:34,971 : INFO : topic #0 (0.117): 0.011*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.003*"music" + 0.003*"percayalah" + 0.003*"sayang" + 0.003*"hero"
+2017-06-21 04:10:34,971 : INFO : topic #2 (0.120): 0.010*"sahabat" + 0.010*"hbd" + 0.009*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"kelas" + 0.004*"car" + 0.004*"candid" + 0.004*"hidup"
+2017-06-21 04:10:34,971 : INFO : topic #1 (0.123): 0.011*"photograph" + 0.008*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:10:34,971 : INFO : topic diff=0.180898, rho=0.424114
+2017-06-21 04:10:36,361 : INFO : -9.027 per-word bound, 521.9 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:36,361 : INFO : PROGRESS: pass 3, at document #3119/3119
+2017-06-21 04:10:37,111 : INFO : optimized alpha [0.11534854366152147, 0.1247393656241659, 0.11826293424337132, 0.1094222997636895, 0.11413860019991987, 0.11169253428038305, 0.10933570340963555]
+2017-06-21 04:10:37,111 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:37,221 : INFO : topic #6 (0.109): 0.012*"selfie" + 0.010*"hati" + 0.007*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"mata" + 0.005*"air" + 0.004*"landscape" + 0.004*"exploresurabaya" + 0.004*"photography"
+2017-06-21 04:10:37,236 : INFO : topic #3 (0.109): 0.010*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"mannequinchallenge" + 0.007*"om" + 0.007*"miss" + 0.006*"berjuang" + 0.005*"surabaya" + 0.005*"satriaandthemonster" + 0.004*"manis"
+2017-06-21 04:10:37,236 : INFO : topic #0 (0.115): 0.012*"sukses" + 0.009*"senyum" + 0.005*"music" + 0.005*"kelas" + 0.005*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"purple" + 0.004*"pacar" + 0.004*"temen"
+2017-06-21 04:10:37,236 : INFO : topic #2 (0.118): 0.012*"bahagia" + 0.011*"hbd" + 0.009*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"old" + 0.005*"smile" + 0.005*"makan" + 0.005*"plazakamera" + 0.005*"imajiindonesia"
+2017-06-21 04:10:37,236 : INFO : topic #1 (0.125): 0.013*"photograph" + 0.010*"canon" + 0.008*"m3" + 0.008*"eos" + 0.006*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:10:37,236 : INFO : topic diff=0.166287, rho=0.424114
+2017-06-21 04:10:37,236 : INFO : PROGRESS: pass 4, at document #2000/3119
+2017-06-21 04:10:38,518 : INFO : optimized alpha [0.11325892676459713, 0.12049435208011371, 0.11625801564008634, 0.10833689966980943, 0.11220946689632361, 0.10993861511947658, 0.10828378309923749]
+2017-06-21 04:10:38,518 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:38,721 : INFO : topic #6 (0.108): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"carxdriftracing" + 0.004*"photography" + 0.004*"beach"
+2017-06-21 04:10:38,721 : INFO : topic #3 (0.108): 0.011*"kawan" + 0.008*"sayang" + 0.007*"satriaandthemonster" + 0.007*"challenge" + 0.006*"miss" + 0.006*"surabaya" + 0.006*"om" + 0.005*"hijab" + 0.005*"mannequinchallenge" + 0.005*"video"
+2017-06-21 04:10:38,736 : INFO : topic #0 (0.113): 0.011*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.003*"percayalah" + 0.003*"mama" + 0.003*"sayang"
+2017-06-21 04:10:38,736 : INFO : topic #2 (0.116): 0.010*"sahabat" + 0.010*"hbd" + 0.009*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.004*"car" + 0.004*"hidup" + 0.004*"kelas" + 0.004*"murid"
+2017-06-21 04:10:38,736 : INFO : topic #1 (0.120): 0.011*"photograph" + 0.008*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:10:38,736 : INFO : topic diff=0.151561, rho=0.390449
+2017-06-21 04:10:40,111 : INFO : -8.980 per-word bound, 504.8 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:40,111 : INFO : PROGRESS: pass 4, at document #3119/3119
+2017-06-21 04:10:40,815 : INFO : optimized alpha [0.11185298442280198, 0.12179536079667255, 0.11495988443603079, 0.1054715920488889, 0.11056586490799714, 0.1081005827413556, 0.10554921810077565]
+2017-06-21 04:10:40,815 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:40,924 : INFO : topic #3 (0.105): 0.010*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"mannequinchallenge" + 0.007*"om" + 0.007*"miss" + 0.006*"berjuang" + 0.005*"surabaya" + 0.005*"satriaandthemonster" + 0.004*"manis"
+2017-06-21 04:10:40,924 : INFO : topic #6 (0.106): 0.012*"selfie" + 0.010*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"mata" + 0.004*"landscape" + 0.004*"exploresurabaya" + 0.004*"photography"
+2017-06-21 04:10:40,924 : INFO : topic #0 (0.112): 0.012*"sukses" + 0.009*"senyum" + 0.005*"music" + 0.005*"kelas" + 0.005*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"purple" + 0.004*"pacar" + 0.004*"temen"
+2017-06-21 04:10:40,924 : INFO : topic #2 (0.115): 0.012*"bahagia" + 0.011*"hbd" + 0.009*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"old" + 0.006*"smile" + 0.005*"makan" + 0.005*"imajiindonesia" + 0.005*"jabon"
+2017-06-21 04:10:40,924 : INFO : topic #1 (0.122): 0.013*"photograph" + 0.009*"canon" + 0.008*"m3" + 0.008*"eos" + 0.006*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:10:40,924 : INFO : topic diff=0.141387, rho=0.390449
+2017-06-21 04:10:40,924 : INFO : PROGRESS: pass 5, at document #2000/3119
+2017-06-21 04:10:42,205 : INFO : optimized alpha [0.11003581156588287, 0.11793654037516643, 0.11317645241099197, 0.10457515035414933, 0.10888142507183016, 0.10657419925887109, 0.10465044000593383]
+2017-06-21 04:10:42,205 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:42,408 : INFO : topic #3 (0.105): 0.011*"kawan" + 0.008*"sayang" + 0.007*"satriaandthemonster" + 0.007*"challenge" + 0.006*"miss" + 0.006*"surabaya" + 0.006*"om" + 0.005*"mannequinchallenge" + 0.005*"hijab" + 0.005*"video"
+2017-06-21 04:10:42,408 : INFO : topic #6 (0.105): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"carxdriftracing" + 0.004*"photography" + 0.004*"beach"
+2017-06-21 04:10:42,408 : INFO : topic #0 (0.110): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.003*"percayalah" + 0.003*"mama" + 0.003*"sayang"
+2017-06-21 04:10:42,408 : INFO : topic #2 (0.113): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"hidup" + 0.004*"car" + 0.004*"murid" + 0.004*"kelas"
+2017-06-21 04:10:42,408 : INFO : topic #1 (0.118): 0.011*"photograph" + 0.008*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:10:42,408 : INFO : topic diff=0.131255, rho=0.363709
+2017-06-21 04:10:43,783 : INFO : -8.950 per-word bound, 494.7 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:43,783 : INFO : PROGRESS: pass 5, at document #3119/3119
+2017-06-21 04:10:44,502 : INFO : optimized alpha [0.10881676240564121, 0.11911723978638328, 0.11200159795444616, 0.10212424908979928, 0.10745932060147946, 0.10498033207622189, 0.10227833023408885]
+2017-06-21 04:10:44,502 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:44,627 : INFO : topic #3 (0.102): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"mannequinchallenge" + 0.007*"om" + 0.007*"miss" + 0.006*"berjuang" + 0.005*"surabaya" + 0.005*"satriaandthemonster" + 0.004*"manis"
+2017-06-21 04:10:44,627 : INFO : topic #6 (0.102): 0.013*"selfie" + 0.010*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"mata" + 0.004*"drift" + 0.004*"photography" + 0.004*"beach"
+2017-06-21 04:10:44,627 : INFO : topic #0 (0.109): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"music" + 0.005*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"purple" + 0.004*"pacar" + 0.004*"temen"
+2017-06-21 04:10:44,627 : INFO : topic #2 (0.112): 0.012*"bahagia" + 0.011*"hbd" + 0.009*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"old" + 0.006*"smile" + 0.005*"makan" + 0.005*"lomba" + 0.005*"jabon"
+2017-06-21 04:10:44,627 : INFO : topic #1 (0.119): 0.013*"photograph" + 0.009*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:10:44,627 : INFO : topic diff=0.124654, rho=0.363709
+2017-06-21 04:10:44,627 : INFO : PROGRESS: pass 6, at document #2000/3119
+2017-06-21 04:10:45,924 : INFO : optimized alpha [0.107248044297127, 0.11557897538874394, 0.11039884933456491, 0.10134997973465926, 0.10596603213622839, 0.10361459256090993, 0.10153027725298863]
+2017-06-21 04:10:45,924 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:46,111 : INFO : topic #3 (0.101): 0.011*"kawan" + 0.008*"sayang" + 0.007*"satriaandthemonster" + 0.007*"challenge" + 0.006*"miss" + 0.006*"surabaya" + 0.006*"om" + 0.005*"mannequinchallenge" + 0.005*"hijab" + 0.005*"berjuang"
+2017-06-21 04:10:46,111 : INFO : topic #6 (0.102): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"carxdriftracing" + 0.004*"photography" + 0.004*"beach"
+2017-06-21 04:10:46,111 : INFO : topic #0 (0.107): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.003*"percayalah" + 0.003*"mama" + 0.003*"sayang"
+2017-06-21 04:10:46,111 : INFO : topic #2 (0.110): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"hidup" + 0.005*"murid" + 0.004*"car" + 0.004*"kelas"
+2017-06-21 04:10:46,111 : INFO : topic #1 (0.116): 0.011*"photograph" + 0.008*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:10:46,111 : INFO : topic diff=0.117710, rho=0.341803
+2017-06-21 04:10:47,502 : INFO : -8.930 per-word bound, 487.9 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:47,502 : INFO : PROGRESS: pass 6, at document #3119/3119
+2017-06-21 04:10:48,221 : INFO : optimized alpha [0.10620554527602342, 0.11666701750567386, 0.10935895955406419, 0.09915952796280339, 0.10471713054960528, 0.10221363875481664, 0.099437294419076852]
+2017-06-21 04:10:48,221 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:48,330 : INFO : topic #3 (0.099): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"berjuang" + 0.005*"satriaandthemonster" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:10:48,330 : INFO : topic #6 (0.099): 0.013*"selfie" + 0.010*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"mata" + 0.004*"drift" + 0.004*"eos700d" + 0.004*"photography"
+2017-06-21 04:10:48,330 : INFO : topic #0 (0.106): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"music" + 0.005*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"purple" + 0.004*"pacar" + 0.004*"temen"
+2017-06-21 04:10:48,330 : INFO : topic #2 (0.109): 0.012*"bahagia" + 0.011*"hbd" + 0.009*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"old" + 0.006*"smile" + 0.005*"lomba" + 0.005*"makan" + 0.005*"sawoongsoerabaia"
+2017-06-21 04:10:48,330 : INFO : topic #1 (0.117): 0.013*"photograph" + 0.009*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:10:48,330 : INFO : topic diff=0.112863, rho=0.341803
+2017-06-21 04:10:48,330 : INFO : PROGRESS: pass 7, at document #2000/3119
+2017-06-21 04:10:49,611 : INFO : optimized alpha [0.1048039499686453, 0.11339822640069226, 0.10790405415962903, 0.098497053570521645, 0.10337671214244894, 0.10099280265936754, 0.098792285738263375]
+2017-06-21 04:10:49,611 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:49,799 : INFO : topic #3 (0.098): 0.011*"kawan" + 0.008*"sayang" + 0.007*"satriaandthemonster" + 0.007*"challenge" + 0.006*"miss" + 0.006*"surabaya" + 0.006*"om" + 0.005*"mannequinchallenge" + 0.005*"berjuang" + 0.005*"hijab"
+2017-06-21 04:10:49,815 : INFO : topic #6 (0.099): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"carxdriftracing" + 0.004*"photography" + 0.004*"beach"
+2017-06-21 04:10:49,815 : INFO : topic #0 (0.105): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.003*"percayalah" + 0.003*"mama" + 0.003*"sayang"
+2017-06-21 04:10:49,815 : INFO : topic #2 (0.108): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"hidup" + 0.005*"murid" + 0.004*"car" + 0.004*"kelas"
+2017-06-21 04:10:49,815 : INFO : topic #1 (0.113): 0.011*"photograph" + 0.008*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:10:49,815 : INFO : topic diff=0.107892, rho=0.323432
+2017-06-21 04:10:51,174 : INFO : -8.915 per-word bound, 482.8 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:51,174 : INFO : PROGRESS: pass 7, at document #3119/3119
+2017-06-21 04:10:51,877 : INFO : optimized alpha [0.10387289067258218, 0.1144127319615563, 0.10697481088274038, 0.096542785618850338, 0.10226628023560273, 0.099746422549151614, 0.096921289244728426]
+2017-06-21 04:10:51,893 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:51,971 : INFO : topic #3 (0.097): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"berjuang" + 0.005*"satriaandthemonster" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:10:51,986 : INFO : topic #6 (0.097): 0.013*"selfie" + 0.010*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"mata" + 0.004*"drift" + 0.004*"eos700d" + 0.004*"photography"
+2017-06-21 04:10:51,986 : INFO : topic #0 (0.104): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"music" + 0.005*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"temen" + 0.004*"purple" + 0.004*"pacar"
+2017-06-21 04:10:51,986 : INFO : topic #2 (0.107): 0.012*"bahagia" + 0.011*"hbd" + 0.009*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"old" + 0.006*"smile" + 0.005*"lomba" + 0.005*"makan" + 0.005*"imajiindonesia"
+2017-06-21 04:10:51,986 : INFO : topic #1 (0.114): 0.013*"photograph" + 0.008*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:10:51,986 : INFO : topic diff=0.104071, rho=0.323432
+2017-06-21 04:10:51,986 : INFO : PROGRESS: pass 8, at document #2000/3119
+2017-06-21 04:10:53,261 : INFO : optimized alpha [0.10259104361838454, 0.11139154824012176, 0.10565964671746499, 0.095983863330081368, 0.10106651436255121, 0.098627672232132771, 0.096329214996393756]
+2017-06-21 04:10:53,261 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:53,464 : INFO : topic #3 (0.096): 0.011*"kawan" + 0.008*"sayang" + 0.007*"challenge" + 0.007*"satriaandthemonster" + 0.006*"miss" + 0.006*"om" + 0.006*"surabaya" + 0.005*"mannequinchallenge" + 0.005*"berjuang" + 0.005*"hijab"
+2017-06-21 04:10:53,464 : INFO : topic #6 (0.096): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"photography" + 0.004*"beach" + 0.004*"carxdriftracing"
+2017-06-21 04:10:53,464 : INFO : topic #0 (0.103): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.004*"percayalah" + 0.003*"mama" + 0.003*"sayang"
+2017-06-21 04:10:53,464 : INFO : topic #2 (0.106): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"hidup" + 0.005*"murid" + 0.004*"car" + 0.004*"makan"
+2017-06-21 04:10:53,464 : INFO : topic #1 (0.111): 0.011*"photograph" + 0.007*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:10:53,464 : INFO : topic diff=0.100436, rho=0.307736
+2017-06-21 04:10:54,852 : INFO : -8.903 per-word bound, 478.8 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:54,852 : INFO : PROGRESS: pass 8, at document #3119/3119
+2017-06-21 04:10:55,555 : INFO : optimized alpha [0.10175238399167563, 0.11234580335113523, 0.10482143451418752, 0.094220544057773636, 0.10006830948384184, 0.09750880847719276, 0.09464099029140853]
+2017-06-21 04:10:55,571 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:55,649 : INFO : topic #3 (0.094): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"berjuang" + 0.006*"satriaandthemonster" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:10:55,649 : INFO : topic #6 (0.095): 0.013*"selfie" + 0.010*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"eos700d" + 0.005*"drift" + 0.005*"mata" + 0.004*"photography"
+2017-06-21 04:10:55,649 : INFO : topic #0 (0.102): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"music" + 0.005*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"temen" + 0.004*"purple" + 0.004*"pacar"
+2017-06-21 04:10:55,649 : INFO : topic #2 (0.105): 0.012*"bahagia" + 0.011*"hbd" + 0.009*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"smile" + 0.006*"old" + 0.005*"lomba" + 0.005*"makan" + 0.005*"sawoongsoerabaia"
+2017-06-21 04:10:55,649 : INFO : topic #1 (0.112): 0.013*"photograph" + 0.008*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.004*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:10:55,649 : INFO : topic diff=0.097190, rho=0.307736
+2017-06-21 04:10:55,664 : INFO : PROGRESS: pass 9, at document #2000/3119
+2017-06-21 04:10:56,930 : INFO : optimized alpha [0.10057379383669902, 0.10952044908941362, 0.1036082240040809, 0.093731241147295183, 0.098942228563264317, 0.096505365921033551, 0.094118546616503887]
+2017-06-21 04:10:56,930 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:10:57,154 : INFO : topic #3 (0.094): 0.011*"kawan" + 0.008*"sayang" + 0.007*"challenge" + 0.007*"satriaandthemonster" + 0.006*"miss" + 0.006*"om" + 0.006*"surabaya" + 0.005*"mannequinchallenge" + 0.005*"berjuang" + 0.005*"hijab"
+2017-06-21 04:10:57,154 : INFO : topic #6 (0.094): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"photography" + 0.004*"beach" + 0.004*"carxdriftracing"
+2017-06-21 04:10:57,154 : INFO : topic #0 (0.101): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.004*"percayalah" + 0.003*"mama" + 0.003*"sayang"
+2017-06-21 04:10:57,154 : INFO : topic #2 (0.104): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"hidup" + 0.005*"murid" + 0.004*"car" + 0.004*"makan"
+2017-06-21 04:10:57,154 : INFO : topic #1 (0.110): 0.011*"photograph" + 0.007*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:10:57,154 : INFO : topic diff=0.094475, rho=0.294124
+2017-06-21 04:10:58,513 : INFO : -8.893 per-word bound, 475.6 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:10:58,513 : INFO : PROGRESS: pass 9, at document #3119/3119
+2017-06-21 04:10:59,200 : INFO : optimized alpha [0.099812748511322685, 0.11045311299408778, 0.10284697884865368, 0.092126120399032882, 0.09801380899613775, 0.095491559557089448, 0.092581654229387383]
+2017-06-21 04:10:59,200 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:10:59,294 : INFO : topic #3 (0.092): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"satriaandthemonster" + 0.006*"berjuang" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:10:59,294 : INFO : topic #6 (0.093): 0.013*"selfie" + 0.009*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"eos700d" + 0.005*"drift" + 0.004*"mata" + 0.004*"beach"
+2017-06-21 04:10:59,294 : INFO : topic #0 (0.100): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"music" + 0.005*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"temen" + 0.004*"purple" + 0.004*"pacar"
+2017-06-21 04:10:59,294 : INFO : topic #2 (0.103): 0.012*"bahagia" + 0.011*"hbd" + 0.009*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"smile" + 0.006*"old" + 0.005*"lomba" + 0.005*"makan" + 0.005*"imajiindonesia"
+2017-06-21 04:10:59,294 : INFO : topic #1 (0.110): 0.013*"photograph" + 0.008*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.003*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:10:59,294 : INFO : topic diff=0.091622, rho=0.294124
+2017-06-21 04:10:59,294 : INFO : PROGRESS: pass 10, at document #2000/3119
+2017-06-21 04:11:00,654 : INFO : optimized alpha [0.098707558901496295, 0.10782819892630945, 0.10173621684151878, 0.091694560917804299, 0.096966040304855394, 0.094557986726407542, 0.092117222654241729]
+2017-06-21 04:11:00,654 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:11:00,935 : INFO : topic #3 (0.092): 0.011*"kawan" + 0.008*"sayang" + 0.007*"challenge" + 0.007*"satriaandthemonster" + 0.006*"miss" + 0.006*"om" + 0.006*"surabaya" + 0.005*"mannequinchallenge" + 0.005*"berjuang" + 0.005*"hijab"
+2017-06-21 04:11:00,935 : INFO : topic #6 (0.092): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"photography" + 0.004*"beach" + 0.004*"carxdriftracing"
+2017-06-21 04:11:00,950 : INFO : topic #0 (0.099): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.004*"percayalah" + 0.003*"mama" + 0.003*"sayang"
+2017-06-21 04:11:00,950 : INFO : topic #2 (0.102): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"hidup" + 0.005*"murid" + 0.004*"car" + 0.004*"makan"
+2017-06-21 04:11:00,950 : INFO : topic #1 (0.108): 0.011*"photograph" + 0.007*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:11:00,950 : INFO : topic diff=0.089517, rho=0.282172
+2017-06-21 04:11:03,341 : INFO : -8.885 per-word bound, 472.7 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:11:03,341 : INFO : PROGRESS: pass 10, at document #3119/3119
+2017-06-21 04:11:04,279 : INFO : optimized alpha [0.098013445657881462, 0.1087145118764978, 0.1010399301660939, 0.090222509216632538, 0.096121952891930498, 0.093633632399521494, 0.090707591287882902]
+2017-06-21 04:11:04,279 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:11:04,372 : INFO : topic #3 (0.090): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"satriaandthemonster" + 0.006*"berjuang" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:11:04,372 : INFO : topic #6 (0.091): 0.013*"selfie" + 0.009*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"eos700d" + 0.005*"drift" + 0.004*"mata" + 0.004*"beach"
+2017-06-21 04:11:04,372 : INFO : topic #0 (0.098): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"music" + 0.005*"keep" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"temen" + 0.004*"purple" + 0.004*"pacar"
+2017-06-21 04:11:04,372 : INFO : topic #2 (0.101): 0.011*"bahagia" + 0.011*"hbd" + 0.010*"sahabat" + 0.006*"hidup" + 0.006*"murid" + 0.006*"smile" + 0.006*"old" + 0.005*"lomba" + 0.005*"makan" + 0.005*"plazakamera"
+2017-06-21 04:11:04,388 : INFO : topic #1 (0.109): 0.012*"photograph" + 0.008*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.003*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:11:04,388 : INFO : topic diff=0.086982, rho=0.282172
+2017-06-21 04:11:04,388 : INFO : PROGRESS: pass 11, at document #2000/3119
+2017-06-21 04:11:05,669 : INFO : optimized alpha [0.096985560945694452, 0.10623636455109975, 0.10000444867785901, 0.089849510546846909, 0.095154588266187098, 0.092772854683000755, 0.090292014684144509]
+2017-06-21 04:11:05,669 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:11:05,888 : INFO : topic #3 (0.090): 0.011*"kawan" + 0.008*"sayang" + 0.007*"challenge" + 0.007*"satriaandthemonster" + 0.006*"miss" + 0.006*"om" + 0.006*"surabaya" + 0.005*"mannequinchallenge" + 0.005*"berjuang" + 0.005*"hijab"
+2017-06-21 04:11:05,888 : INFO : topic #6 (0.090): 0.016*"selfie" + 0.010*"kangen" + 0.007*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"photography" + 0.004*"beach" + 0.004*"carxdriftracing"
+2017-06-21 04:11:05,888 : INFO : topic #0 (0.097): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.004*"percayalah" + 0.004*"mama" + 0.003*"sayang"
+2017-06-21 04:11:05,888 : INFO : topic #2 (0.100): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"hidup" + 0.005*"old" + 0.005*"murid" + 0.004*"car" + 0.004*"makan"
+2017-06-21 04:11:05,888 : INFO : topic #1 (0.106): 0.011*"photograph" + 0.007*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:11:05,888 : INFO : topic diff=0.085212, rho=0.271568
+2017-06-21 04:11:07,247 : INFO : -8.877 per-word bound, 470.3 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:11:07,247 : INFO : PROGRESS: pass 11, at document #3119/3119
+2017-06-21 04:11:07,966 : INFO : optimized alpha [0.09634909985401198, 0.10708296526627628, 0.099364439460443377, 0.088490310124194407, 0.094382536051674251, 0.091924945413236439, 0.088990919176956465]
+2017-06-21 04:11:07,966 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:11:08,060 : INFO : topic #3 (0.088): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"satriaandthemonster" + 0.006*"berjuang" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:11:08,060 : INFO : topic #6 (0.089): 0.013*"selfie" + 0.009*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"drift" + 0.005*"eos700d" + 0.004*"mata" + 0.004*"beach"
+2017-06-21 04:11:08,060 : INFO : topic #0 (0.096): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"keep" + 0.005*"music" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"temen" + 0.004*"purple" + 0.004*"pacar"
+2017-06-21 04:11:08,060 : INFO : topic #2 (0.099): 0.011*"bahagia" + 0.011*"hbd" + 0.010*"sahabat" + 0.006*"hidup" + 0.006*"smile" + 0.006*"murid" + 0.006*"old" + 0.005*"lomba" + 0.005*"makan" + 0.005*"sawoongsoerabaia"
+2017-06-21 04:11:08,060 : INFO : topic #1 (0.107): 0.012*"photograph" + 0.008*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.003*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:11:08,060 : INFO : topic diff=0.083019, rho=0.271568
+2017-06-21 04:11:08,060 : INFO : PROGRESS: pass 12, at document #2000/3119
+2017-06-21 04:11:09,325 : INFO : optimized alpha [0.095388580663382516, 0.10473548172361362, 0.098381823251087505, 0.0881594095453338, 0.09348450073188963, 0.091138816563240493, 0.088616618803901703]
+2017-06-21 04:11:09,325 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:11:09,529 : INFO : topic #3 (0.088): 0.011*"kawan" + 0.008*"sayang" + 0.007*"challenge" + 0.007*"satriaandthemonster" + 0.006*"miss" + 0.006*"om" + 0.006*"surabaya" + 0.005*"mannequinchallenge" + 0.005*"berjuang" + 0.005*"hijab"
+2017-06-21 04:11:09,529 : INFO : topic #6 (0.089): 0.016*"selfie" + 0.010*"kangen" + 0.008*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"photography" + 0.004*"beach" + 0.004*"carxdriftracing"
+2017-06-21 04:11:09,529 : INFO : topic #0 (0.095): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.004*"percayalah" + 0.004*"mama" + 0.003*"sayang"
+2017-06-21 04:11:09,529 : INFO : topic #2 (0.098): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"hidup" + 0.005*"murid" + 0.004*"car" + 0.004*"makan"
+2017-06-21 04:11:09,529 : INFO : topic #1 (0.105): 0.011*"photograph" + 0.007*"canon" + 0.006*"m3" + 0.006*"eos" + 0.005*"wanita" + 0.004*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:11:09,529 : INFO : topic diff=0.081479, rho=0.262076
+2017-06-21 04:11:11,200 : INFO : -8.871 per-word bound, 468.2 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:11:11,200 : INFO : PROGRESS: pass 12, at document #3119/3119
+2017-06-21 04:11:12,357 : INFO : optimized alpha [0.094802250010987688, 0.10554754062682012, 0.097791646187926851, 0.086897449067394536, 0.092774598813852915, 0.090356281284969253, 0.087409139165163824]
+2017-06-21 04:11:12,357 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:11:12,513 : INFO : topic #3 (0.087): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"satriaandthemonster" + 0.006*"berjuang" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:11:12,513 : INFO : topic #6 (0.087): 0.013*"selfie" + 0.009*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"drift" + 0.005*"eos700d" + 0.004*"mata" + 0.004*"beach"
+2017-06-21 04:11:12,513 : INFO : topic #0 (0.095): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"keep" + 0.005*"music" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"temen" + 0.004*"purple" + 0.004*"pacar"
+2017-06-21 04:11:12,513 : INFO : topic #2 (0.098): 0.011*"bahagia" + 0.011*"hbd" + 0.010*"sahabat" + 0.006*"hidup" + 0.006*"smile" + 0.006*"murid" + 0.006*"old" + 0.005*"lomba" + 0.005*"makan" + 0.005*"jabon"
+2017-06-21 04:11:12,513 : INFO : topic #1 (0.106): 0.012*"photograph" + 0.008*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.003*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:11:12,513 : INFO : topic diff=0.079571, rho=0.262076
+2017-06-21 04:11:12,513 : INFO : PROGRESS: pass 13, at document #2000/3119
+2017-06-21 04:11:14,497 : INFO : optimized alpha [0.093901102683488738, 0.10331737384888827, 0.096868464865546039, 0.086600830603688547, 0.091949692480200504, 0.08961159448527721, 0.0870702461278519]
+2017-06-21 04:11:14,497 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:11:14,857 : INFO : topic #3 (0.087): 0.011*"kawan" + 0.008*"sayang" + 0.007*"challenge" + 0.007*"satriaandthemonster" + 0.006*"miss" + 0.006*"om" + 0.006*"surabaya" + 0.005*"mannequinchallenge" + 0.005*"berjuang" + 0.005*"hijab"
+2017-06-21 04:11:14,857 : INFO : topic #6 (0.087): 0.016*"selfie" + 0.010*"kangen" + 0.008*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"beach" + 0.004*"photography" + 0.004*"mom"
+2017-06-21 04:11:14,857 : INFO : topic #0 (0.094): 0.012*"sukses" + 0.008*"senyum" + 0.007*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.004*"percayalah" + 0.004*"mama" + 0.003*"sayang"
+2017-06-21 04:11:14,857 : INFO : topic #2 (0.097): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"old" + 0.005*"hidup" + 0.005*"murid" + 0.004*"car" + 0.004*"makan"
+2017-06-21 04:11:14,857 : INFO : topic #1 (0.103): 0.011*"photograph" + 0.007*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"wanita" + 0.005*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:11:14,857 : INFO : topic diff=0.078220, rho=0.253514
+2017-06-21 04:11:16,607 : INFO : -8.865 per-word bound, 466.3 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:11:16,607 : INFO : PROGRESS: pass 13, at document #3119/3119
+2017-06-21 04:11:17,154 : INFO : optimized alpha [0.093358810960396596, 0.10409912262203051, 0.096343808250238416, 0.085423638163618643, 0.091293336276342063, 0.088886779611294736, 0.08592488753647276]
+2017-06-21 04:11:17,154 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:11:17,232 : INFO : topic #3 (0.085): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"satriaandthemonster" + 0.006*"berjuang" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:11:17,232 : INFO : topic #6 (0.086): 0.013*"selfie" + 0.009*"hati" + 0.008*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"drift" + 0.005*"eos700d" + 0.004*"mata" + 0.004*"beach"
+2017-06-21 04:11:17,232 : INFO : topic #0 (0.093): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"keep" + 0.005*"music" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"temen" + 0.004*"rock" + 0.004*"purple"
+2017-06-21 04:11:17,232 : INFO : topic #2 (0.096): 0.011*"bahagia" + 0.011*"hbd" + 0.010*"sahabat" + 0.006*"hidup" + 0.006*"smile" + 0.006*"murid" + 0.006*"old" + 0.005*"lomba" + 0.005*"makan" + 0.005*"plazakamera"
+2017-06-21 04:11:17,232 : INFO : topic #1 (0.104): 0.012*"photograph" + 0.008*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.003*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:11:17,232 : INFO : topic diff=0.076631, rho=0.253514
+2017-06-21 04:11:17,232 : INFO : PROGRESS: pass 14, at document #2000/3119
+2017-06-21 04:11:18,200 : INFO : optimized alpha [0.092510485843903742, 0.10198876422204543, 0.095471618830788058, 0.085156400513282479, 0.090520650110892387, 0.088179747615553541, 0.085617452289584631]
+2017-06-21 04:11:18,216 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-06-21 04:11:18,466 : INFO : topic #3 (0.085): 0.011*"kawan" + 0.008*"sayang" + 0.007*"challenge" + 0.007*"satriaandthemonster" + 0.006*"miss" + 0.006*"om" + 0.006*"surabaya" + 0.005*"mannequinchallenge" + 0.005*"berjuang" + 0.005*"hijab"
+2017-06-21 04:11:18,482 : INFO : topic #6 (0.086): 0.016*"selfie" + 0.010*"kangen" + 0.008*"hati" + 0.006*"alhamdulillah" + 0.006*"drift" + 0.005*"air" + 0.005*"nissan" + 0.004*"beach" + 0.004*"photography" + 0.004*"mom"
+2017-06-21 04:11:18,482 : INFO : topic #0 (0.093): 0.012*"sukses" + 0.008*"senyum" + 0.006*"kelas" + 0.005*"keep" + 0.005*"rock" + 0.004*"temen" + 0.004*"music" + 0.004*"percayalah" + 0.004*"mama" + 0.003*"sayang"
+2017-06-21 04:11:18,482 : INFO : topic #2 (0.095): 0.010*"sahabat" + 0.010*"hbd" + 0.010*"bahagia" + 0.007*"smile" + 0.005*"lomba" + 0.005*"hidup" + 0.005*"old" + 0.005*"murid" + 0.004*"car" + 0.004*"makan"
+2017-06-21 04:11:18,482 : INFO : topic #1 (0.102): 0.011*"photograph" + 0.007*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"wanita" + 0.005*"galantiz" + 0.004*"sidoarjo" + 0.003*"team" + 0.003*"kebersamaan" + 0.003*"hati"
+2017-06-21 04:11:18,482 : INFO : topic diff=0.075377, rho=0.245740
+2017-06-21 04:11:20,529 : INFO : -8.860 per-word bound, 464.6 perplexity estimate based on a held-out corpus of 1119 documents with 3438 words
+2017-06-21 04:11:20,529 : INFO : PROGRESS: pass 14, at document #3119/3119
+2017-06-21 04:11:21,654 : INFO : optimized alpha [0.092007046134814446, 0.10274296637186532, 0.094983815986194112, 0.084053677113124198, 0.089911295575638844, 0.087506129605419383, 0.084545685243482133]
+2017-06-21 04:11:21,654 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-06-21 04:11:21,810 : INFO : topic #3 (0.084): 0.011*"kawan" + 0.008*"challenge" + 0.008*"sayang" + 0.007*"om" + 0.007*"mannequinchallenge" + 0.007*"miss" + 0.006*"satriaandthemonster" + 0.006*"berjuang" + 0.005*"surabaya" + 0.004*"manis"
+2017-06-21 04:11:21,810 : INFO : topic #6 (0.085): 0.014*"selfie" + 0.009*"hati" + 0.009*"kangen" + 0.007*"alhamdulillah" + 0.005*"mom" + 0.005*"air" + 0.005*"drift" + 0.005*"eos700d" + 0.004*"mata" + 0.004*"beach"
+2017-06-21 04:11:21,810 : INFO : topic #0 (0.092): 0.012*"sukses" + 0.009*"senyum" + 0.005*"kelas" + 0.005*"keep" + 0.005*"music" + 0.004*"percayalah" + 0.004*"mama" + 0.004*"temen" + 0.004*"rock" + 0.004*"purple"
+2017-06-21 04:11:21,810 : INFO : topic #2 (0.095): 0.011*"bahagia" + 0.011*"hbd" + 0.010*"sahabat" + 0.006*"hidup" + 0.006*"smile" + 0.006*"murid" + 0.006*"old" + 0.005*"lomba" + 0.005*"makan" + 0.005*"jabon"
+2017-06-21 04:11:21,810 : INFO : topic #1 (0.103): 0.012*"photograph" + 0.008*"canon" + 0.007*"m3" + 0.007*"eos" + 0.005*"galantiz" + 0.005*"wanita" + 0.005*"sidoarjo" + 0.003*"hati" + 0.003*"smafav" + 0.003*"team"
+2017-06-21 04:11:21,810 : INFO : topic diff=0.073888, rho=0.245740
+2017-06-21 04:11:21,810 : INFO : saving LdaState object under model/no_stem/model_7_30_nostem.model.state, separately None
+2017-06-21 04:11:21,841 : INFO : saved model/no_stem/model_7_30_nostem.model.state
+2017-06-21 04:11:21,872 : INFO : saving LdaModel object under model/no_stem/model_7_30_nostem.model, separately ['expElogbeta', 'sstats']
+2017-06-21 04:11:21,872 : INFO : not storing attribute dispatcher
+2017-06-21 04:11:21,872 : INFO : not storing attribute id2word
+2017-06-21 04:11:21,872 : INFO : not storing attribute state
+2017-06-21 04:11:21,872 : INFO : storing np array 'expElogbeta' to model/no_stem/model_7_30_nostem.model.expElogbeta.npy
+2017-06-21 04:11:21,919 : INFO : saved model/no_stem/model_7_30_nostem.model

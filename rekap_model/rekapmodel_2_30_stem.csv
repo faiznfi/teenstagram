@@ -1,0 +1,26 @@
+2017-07-07 07:27:04,052 : INFO : using autotuned alpha, starting with [0.5, 0.5]
+2017-07-07 07:27:04,069 : INFO : using symmetric eta at 0.00035137034434293746
+2017-07-07 07:27:04,071 : INFO : using serial LDA version on this node
+2017-07-07 07:27:04,216 : INFO : running online LDA training, 2 topics, 1 passes over the supplied corpus of 3119 documents, updating model once every 2000 documents, evaluating perplexity every 3119 documents, iterating 50x with a convergence threshold of 0.001000
+2017-07-07 07:27:04,216 : WARNING : too few updates, training might not converge; consider increasing the number of passes or iterations to improve accuracy
+2017-07-07 07:27:04,217 : INFO : PROGRESS: pass 0, at document #2000/3119
+2017-07-07 07:27:12,812 : INFO : optimized alpha [0.62224665530286905, 0.63336447730577083]
+2017-07-07 07:27:12,813 : INFO : merging changes from 2000 documents into a model of 3119 documents
+2017-07-07 07:27:12,948 : INFO : topic #0 (0.622): 0.005*"sukses" + 0.005*"nissan" + 0.005*"hati" + 0.005*"kawan" + 0.004*"sayang" + 0.004*"sahabat" + 0.004*"surabaya" + 0.003*"rock" + 0.003*"allah" + 0.003*"kenang"
+2017-07-07 07:27:12,950 : INFO : topic #1 (0.633): 0.010*"selfie" + 0.007*"sahabat" + 0.006*"kangen" + 0.006*"kelas" + 0.006*"surabaya" + 0.005*"satriaandthemonster" + 0.005*"selamat" + 0.004*"indonesia" + 0.004*"sekolah" + 0.004*"smp"
+2017-07-07 07:27:12,950 : INFO : topic diff=0.992779, rho=1.000000
+2017-07-07 07:27:16,671 : INFO : -9.410 per-word bound, 680.3 perplexity estimate based on a held-out corpus of 1119 documents with 2111 words
+2017-07-07 07:27:16,672 : INFO : PROGRESS: pass 0, at document #3119/3119
+2017-07-07 07:27:19,322 : INFO : optimized alpha [0.73551192103013086, 0.72060086388689193]
+2017-07-07 07:27:19,323 : INFO : merging changes from 1119 documents into a model of 3119 documents
+2017-07-07 07:27:19,423 : INFO : topic #0 (0.736): 0.010*"hati" + 0.008*"sukses" + 0.007*"photograph" + 0.007*"sayang" + 0.004*"rindu" + 0.004*"kawan" + 0.003*"juang" + 0.003*"murid" + 0.003*"makan" + 0.003*"challenge"
+2017-07-07 07:27:19,424 : INFO : topic #1 (0.721): 0.012*"surabaya" + 0.007*"selamat" + 0.005*"selfie" + 0.005*"senyum" + 0.005*"tuhan" + 0.004*"sahabat" + 0.004*"kelas" + 0.004*"indonesia" + 0.004*"hbd" + 0.004*"sekolah"
+2017-07-07 07:27:19,424 : INFO : topic diff=1.220650, rho=0.707107
+2017-07-07 07:27:19,424 : INFO : saving LdaState object under model/stem/1000model_2_30_stem.model.state, separately None
+2017-07-07 07:27:19,441 : INFO : saved model/stem/1000model_2_30_stem.model.state
+2017-07-07 07:27:19,466 : INFO : saving LdaModel object under model/stem/1000model_2_30_stem.model, separately ['expElogbeta', 'sstats']
+2017-07-07 07:27:19,467 : INFO : not storing attribute dispatcher
+2017-07-07 07:27:19,467 : INFO : not storing attribute state
+2017-07-07 07:27:19,467 : INFO : not storing attribute id2word
+2017-07-07 07:27:19,467 : INFO : storing np array 'expElogbeta' to model/stem/1000model_2_30_stem.model.expElogbeta.npy
+2017-07-07 07:27:19,515 : INFO : saved model/stem/1000model_2_30_stem.model
